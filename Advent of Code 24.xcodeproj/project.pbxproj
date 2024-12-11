@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BC20D0A02CFE9B0600C61C7D /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BC20D09F2CFE9B0600C61C7D /* Algorithms */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BCECCF462CFCF40000468F35 /* Advent of Code 24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advent of Code 24.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC20D0A02CFE9B0600C61C7D /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "Advent of Code 24";
 			packageProductDependencies = (
+				BC20D09F2CFE9B0600C61C7D /* Algorithms */,
 			);
 			productName = "Advent of Code 24";
 			productReference = BCECCF462CFCF40000468F35 /* Advent of Code 24.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = BCECCF3D2CFCF40000468F35;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BC20D09E2CFE9B0600C61C7D /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BCECCF472CFCF40000468F35 /* Products */;
 			projectDirPath = "";
@@ -322,6 +331,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC20D09E2CFE9B0600C61C7D /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC20D09F2CFE9B0600C61C7D /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC20D09E2CFE9B0600C61C7D /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCECCF3E2CFCF40000468F35 /* Project object */;
 }
